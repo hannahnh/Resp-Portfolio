@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Hannah Ngo Huynh
+EMAIL: hannahnh@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Hannah Huynh">
+  <meta name="description" content="Portfolio Website">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="media.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Hj4S9OVqSdjKlAk++kEzj6p8zO5NlvOezbq5e4hdkblLs5q5b1I5YxhRMfZEI6bF" crossorigin="anonymous">
+  <!-- you would also link to Bootstrap here! -->
+  <title>Hannah's Portfolio</title>
+</head>
+<body>
+    <!--
+        <p>
+        <a href="http://validator.w3.org/check?uri=referer">
+           W3C validator
+        </a>
+    </p>
+    -->
+
+    <nav id="desktop-nav">
+        <div class="logo">Hannah Huynh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <!--<li><a href="#projects">Projects</a></li>-->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Hannah Huynh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <!--<li><a href="#projects">Projects</a></li>-->
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./resources/profilepic.png" alt="Hannah sitting"></img>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hi! My name is</p>
+            <h1 class="title">Hannah Huynh</h1>
+            <p class="section__text__p2">3rd Year Computer Science Major</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('resources/Hannah Huynh - Resume.pdf')">Download Resume</button>
+                
+                <button class="btn btn-color-1" 
+                onclick="location.href='#contact'">Contact</button>
+            </div>
+            <div id="socials-container"> <!--48:02-->
+                <img src="resources/linkedin.png" alt="my linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/hannah-nhuynh/'"/>
+                <img src="resources/github icon.png" alt="my github" class="icon" onclick="location.href='https://github.com/hannahnh'"/>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
