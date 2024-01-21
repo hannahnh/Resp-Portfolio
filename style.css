@@ -251,6 +251,10 @@ section {
     position: relative;
 }
 
+.text-containers {
+    text-align: center;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
