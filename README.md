@@ -18,6 +18,7 @@ How many assignment points do you believe you completed (replace the *'s with yo
 */3 Responsive layout
 */1 Passes validation checks
 */2 Embraces spirit of the assignment
+
 What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 (a) Basic features
 
@@ -28,6 +29,10 @@ What (a) basic features, (b) CSS features, and (c) advanced features did you inc
 How long, in hours, did it take you to complete this assignment?
 
 What online resources did you consult when completing this assignment? (list specific URLs)
+- Referenced for accordian/collapse section (https://www.youtube.com/watch?v=2cPKsxJcF9Y & https://www.w3schools.com/howto/howto_js_collapsible.asp)
+- Referenced for nav bar (https://www.youtube.com/watch?v=ldwlOzRvYOU)
+- Icons/fonts (https://fonts.google.com/icons)
+- HTML references (https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 

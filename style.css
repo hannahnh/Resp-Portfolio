@@ -148,7 +148,7 @@ a:hover {
 
 /* sections */
 
-sections {
+section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -166,7 +166,7 @@ sections {
     display: flex;
     justify-content: center;
     gap: 12rem;
-    height: 72vh;
+    height: 80vh;
 }
 
 .section__pic-container {
@@ -251,39 +251,45 @@ sections {
     position: relative;
 }
 
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .about-details-container { 
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
-    text-align: center;
+    /*text-align: center;*/
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
 }
 
 .about-pic {
-    border-radius: 3rem;
-    
+    border-radius: 2rem;
 }
 
-/* about me section */
-
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
+.details-container {
+    padding: 0.75rem;
+    flex: 1;
+    background: #F4F4F4;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
 
 .section-container {
-    display: flex;
-    gap: 4.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    height: 50%;
+    gap: 4rem;
+    height: 60%
 }
 
 .section__pic-container {
-    display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -297,4 +303,122 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+}
+
+/* experiences */
+
+.collapse {
+    margin: 60px auto;
+    width: 600px;
+}
+
+.collapse li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #F4F4F4;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
+}
+
+.collapse li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.collapse .content {
+    color: black;
+    padding: 0 10px;
+    line-height: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.collapse input[type="radio"]:checked + label +.content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.collapse input[type="radio"]:checked + label::before {
+    content: '-';
+}
+
+/* expand more arrow */
+
+span[alt="icon arrow"] {
+    position: absolute;
+    right: 10rem;
+    bottom: 5rem;
+    color: black;
+    font-size: 3rem;
+}
+
+/* contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: #F4F4F4;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+span[alt="email-icon"] {
+    cursor: default;
+}
+
+.email-icon,
+span[alt="email-icon"] {
+    height: 1.5rem;
+}
+
+/* footer */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
 }

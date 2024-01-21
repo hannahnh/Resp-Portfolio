@@ -22,12 +22,12 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <!--<li><a href="#projects">Projects</a></li>-->
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Hannah Huynh</div>
+        <div class="logo">H/H</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -39,7 +39,7 @@
                 <li><a href="about.html" onclick="toggleMenu()">About</a></li>
                 <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
                 <!--<li><a href="#projects">Projects</a></li>-->
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -50,31 +50,32 @@
         <p class="section__text__p1">Learn More About</p>
         <h1 class="title">My Experiences</h1>
         <div class="section-container">
-            <div class="experience-details-container">
-                <h2>Student Assistant</h2>
-                <h3>Nov. 2022 - Present</h3>
-                <div class="text-containers">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate
-                        exercitationem nobis, nihil esse debitis maxime facere minus sint
-                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                    </p>
-                </div>
-            </div>
-            <div class="experience-details-container">
-                <h2>Lab Tutor</h2>
-                <h3>Sept. 2022 - Dec. 2022</h3>
-                <div class="text-containers">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate
-                        exercitationem nobis, nihil esse debitis maxime facere minus sint
-                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                    </p>
-                </div>
-            </div>
-        </div>
-
+            <ul class="collapse">
+                <li>
+                    <input type="radio" name="collapse" id="first" checked>
+                    <label for="first">Student Assistant</label>
+                    <div class="content">
+                        <h4>Nov. 2022 - Present</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                            reprehenderit et laborum, rem, dolore eum quod voluptate
+                            exercitationem nobis, nihil esse debitis maxime facere minus sint
+                            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="collapse" id="second">
+                    <label for="second">Lab Tutor</label>
+                    <div class="content">
+                        <h4>Sept. 2022 - Dec. 2022</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                            reprehenderit et laborum, rem, dolore eum quod voluptate
+                            exercitationem nobis, nihil esse debitis maxime facere minus sint
+                            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                        </p>
+                    </div>
+                </li>
+            </ul>
     </section>
-    
 </body>
 </html>
