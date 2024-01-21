@@ -12,7 +12,6 @@ EMAIL: hannahnh@uci.edu
   <meta name="description" content="Portfolio Website">
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="media.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Hj4S9OVqSdjKlAk++kEzj6p8zO5NlvOezbq5e4hdkblLs5q5b1I5YxhRMfZEI6bF" crossorigin="anonymous">
   <!-- you would also link to Bootstrap here! -->
   <title>Hannah's Portfolio</title>
 </head>
@@ -24,9 +23,9 @@ EMAIL: hannahnh@uci.edu
         </a>
     </p>
     -->
-
+    
     <nav id="desktop-nav">
-        <div class="logo">Hannah Huynh</div>
+        <div class="logo">H/H</div>
         <div>
             <ul class="nav-links">
                 <li><a href="about.html">About</a></li>
@@ -45,22 +44,26 @@ EMAIL: hannahnh@uci.edu
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
                 <!--<li><a href="#projects">Projects</a></li>-->
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
+    <script src="script.js"></script>
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./resources/profilepic.png" alt="Hannah sitting"></img>
+            <!--<img src="./resources/profilepic.png" alt="Hannah sitting"></img>-->
+            <p>Hannah <br /> Huynh</p>
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hi! My name is</p>
+            
+            <!--<p class="section__text__p1">Hi! My name is</p>
             <h1 class="title">Hannah Huynh</h1>
-            <p class="section__text__p2">3rd Year Computer Science Major</p>
+            <p class="section__text__p2">3rd Year Computer Science Major</p>-->
             <div class="btn-container">
                 <button class="btn btn-color-2" 
                 onclick="window.open('resources/Hannah Huynh - Resume.pdf')">Download Resume</button>
@@ -75,21 +78,5 @@ EMAIL: hannahnh@uci.edu
         </div>
     </section>
 
-    <script src="script.js"></script>
-
 </body>
 </html>
-
-<!-- to do
-* turn navigations (about me/experiences) into separate pages when clicked
-    * contact me should always be at the bottom
-* click on homepage to bring back to home
-    * using google icons for home page?
-* make sure works on mobile 
-* figure out how to embed github?
-* experiences page
-    * toggles that open up (lab tutor, student assistant)
-* about me
-    * cs/health informatics minor
-    * regent scholar
--->
