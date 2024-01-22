@@ -368,7 +368,7 @@ input[type="radio"] {
 
 /* expand more arrow */
 
-span[alt="icon arrow"] {
+span[aria-label="icon arrow"] {
     position: absolute;
     right: 10rem;
     bottom: 5rem;
@@ -417,7 +417,7 @@ span[aria-label="email-icon"] {
 }
 
 .email-icon,
-span[alt="email-icon"] {
+span[aria-label="email-icon"] {
     height: 1.5rem;
 }
 
