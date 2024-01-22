@@ -412,7 +412,7 @@ span[alt="icon arrow"] {
     cursor: default;
 }
 
-span[alt="email-icon"] {
+span[aria-label="email-icon"] {
     cursor: default;
 }
 
