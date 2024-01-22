@@ -11,22 +11,33 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 How many assignment points do you believe you completed (replace the *'s with your numbers)?
 */13
 
-*/1 Readme
-*/2 Basic HTML content
-*/2 Basic CSS styling
-*/2 Advanced feature
-*/3 Responsive layout
+1/1 Readme
+2/2 Basic HTML content
+2/2 Basic CSS styling
+2/2 Advanced feature
+3/3 Responsive layout
 */1 Passes validation checks
-*/2 Embraces spirit of the assignment
+2/2 Embraces spirit of the assignment
 
 What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 (a) Basic features
+- One image with descriptive alt attributes (about section)
+- Appropriate headings & paragraph text (about & index)
+- Links to external pages (linkedin, github, resume)
+- Includes footer
+- Custom icons from Google Material Icons (email, expand arrow)
 
 (b) CSS features
+- Modified padding & margins
+- Added custom fonts from Google fonts (Poppins)
+- Modified button/nav coloring when hovered over
 
 (c) Advanced features
+- Regular navigation bar when full screen/menu when smaller screen
+- Collapsible section (experience file)
 
 How long, in hours, did it take you to complete this assignment?
+Approximately 10 hours (spread out over a few days)
 
 What online resources did you consult when completing this assignment? (list specific URLs)
 - Referenced for accordian/collapse section (https://www.youtube.com/watch?v=2cPKsxJcF9Y & https://www.w3schools.com/howto/howto_js_collapsible.asp)
