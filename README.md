@@ -9,14 +9,14 @@ While learning from examples is encouraged, attempting to pass an existing proje
 Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does not permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
 
 How many assignment points do you believe you completed (replace the *'s with your numbers)?
-*/13
+13/13
 
 1/1 Readme
 2/2 Basic HTML content
 2/2 Basic CSS styling
 2/2 Advanced feature
 3/3 Responsive layout
-*/1 Passes validation checks
+1/1 Passes validation checks
 2/2 Embraces spirit of the assignment
 
 What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
