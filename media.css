@@ -92,4 +92,11 @@
     .text-containers {
         text-align: justify;
     }
+    .collapse {
+        width: 100%;
+    }
+    .collapse li {
+        justify-content: center;
+        align-items: center;
+    }
 }

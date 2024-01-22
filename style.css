@@ -75,6 +75,7 @@ a:hover {
 .hamburger-menu {
     position: relative;
     display: inline-block; 
+    z-index: 1000;
 }
 
 .hamburger-icon {
@@ -290,7 +291,7 @@ section {
 
 .section-container {
     gap: 4rem;
-    height: 60%
+    height: 60%;
 }
 
 .section__pic-container {
