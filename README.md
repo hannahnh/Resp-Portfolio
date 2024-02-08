@@ -18,3 +18,5 @@ What (a) basic features, (b) CSS features, and (c) advanced features are include
 (c) Advanced features
 - Regular navigation bar when full screen/menu when smaller screen
 - Collapsible section (experience file)
+
+Accesible through pages: https://hannahnh.github.io/Resp-Portfolio/
